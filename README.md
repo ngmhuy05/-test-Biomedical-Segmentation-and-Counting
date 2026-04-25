@@ -1,10 +1,10 @@
-# 🔬 Biomedical Image Segmentation and Object Counting
+# Biomedical Image Segmentation and Object Counting
 
 > **Đề tài 3:** Ứng dụng các phương pháp segmentation (truyền thống & kết hợp Machine Learning) cho bài toán đếm đối tượng trong lĩnh vực y sinh.
 
 ---
 
-## 👥 Danh sách thành viên
+## Danh sách thành viên
 
 | STT | Họ và Tên | Lớp | MSSV |
 | :---: | :--- | :---: | :---: |
@@ -15,12 +15,12 @@
 
 ---
 
-## 📖 Giới thiệu dự án
+## Giới thiệu dự án
 Dự án này tập trung vào việc giải quyết bài toán phân đoạn (segmentation) và đếm số lượng tế bào sinh học từ hình ảnh vi thể. Trong môi trường y sinh thực tế, hình ảnh thường gặp các vấn đề về chất lượng như mất nét (focus blur) và các tế bào nằm dính chùm vào nhau (clustering). Chúng tôi triển khai và so sánh hiệu quả của các phương pháp Xử lý ảnh truyền thống và Machine Learning để đánh giá độ bền bỉ của chúng đối với các nhiễu ảnh này.
 
 ---
 
-## 📂 Tập dữ liệu (Dataset)
+## Tập dữ liệu (Dataset)
 Dự án sử dụng bộ dữ liệu **BBBC005 (Synthetic cells)** từ Broad Bioimage Benchmark Collection. 
 
 Đây là tập dữ liệu chuyên dụng để kiểm thử các thuật toán đánh giá độ nét (focus metrics) và phân đoạn hình ảnh y sinh thông qua các hình ảnh tế bào được mô phỏng.
@@ -36,7 +36,7 @@ Dự án sử dụng bộ dữ liệu **BBBC005 (Synthetic cells)** từ Broad B
 
 ---
 
-## ⚙️ Phương pháp & Thuật toán
+## Phương pháp & Thuật toán
 
 ### 1. Phương pháp Truyền thống (Traditional CV)
 * **Tiền xử lý:** Gaussian Blur, Contrast Limited Adaptive Histogram Equalization (CLAHE).
@@ -50,21 +50,21 @@ Dự án sử dụng bộ dữ liệu **BBBC005 (Synthetic cells)** từ Broad B
 
 ---
 
-## 🚀 Triển khai Ứng dụng (Web App)
+## Triển khai Ứng dụng (Web App)
 Ứng dụng được xây dựng bằng **Streamlit**, cho phép người dùng tương tác trực tiếp:
 * Tải lên hình ảnh tế bào (chọn từ tập BBBC005 với các độ mờ khác nhau).
 * Lựa chọn thuật toán (Watershed hoặc K-Means).
 * Hiển thị trực quan quá trình xử lý (Bounding box, Mask kết quả).
 * Trả về số lượng tế bào đếm được và so sánh sai số với Ground Truth ẩn trong tên file.
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 * **Ngôn ngữ:** Python 3.10+
 * **Computer Vision:** OpenCV, scikit-image.
 * **Machine Learning:** scikit-learn.
 * **Web Framework:** Streamlit.
 * **Quản lý mã nguồn:** GitHub.
 
-## 📥 Hướng dẫn cài đặt
+## Hướng dẫn cài đặt
 
 ```bash
 # 1. Clone repository
