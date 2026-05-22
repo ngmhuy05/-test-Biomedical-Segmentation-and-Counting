@@ -1,4 +1,4 @@
-# Biomedical Segmentation and Object Counting (BBBC005)
+# Biomedical Segmentation and Object Counting ([BBBCD](https://www.kaggle.com/datasets/orvile/bccd-blood-cell-count-and-detection-dataset/data?fbclid=IwY2xjawR888JleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEed72mT-E9OWycK4bav6YhRc7S5beUt3l7tme4ai-eK_FIL1pVV2dJWHvGKcE_aem_C1SNQL9uFQye91Trn2Re1g))
 
 ## Tổng quan dự án
 Dự án nghiên cứu này tập trung vào bài toán phân đoạn ảnh tế bào và đếm số lượng đối tượng trong điều kiện ảnh bị mờ (focus blur), sử dụng bộ dữ liệu BBBC005 (Synthetic Cells).
