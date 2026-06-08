@@ -208,3 +208,11 @@ __marimo__/
 
 # MATLAB generated data
 *.mat
+
+# Generated project outputs
+report/
+docs/report_assets/
+
+# Local handoff bundles
+final/
+finnal.zip
